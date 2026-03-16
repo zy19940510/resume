@@ -69,7 +69,11 @@
         </div>
         <div class="highlight-card">
           <div class="highlight-label">AI 量化</div>
-          <div class="highlight-value">Smart Trader 五维评级</div>
+          <div class="highlight-value">Smart Trader 分析 SaaS · 信号流水线</div>
+        </div>
+        <div class="highlight-card">
+          <div class="highlight-label">AI 桌面</div>
+          <div class="highlight-value">DeskClaw 插件化助手 · 跨平台</div>
         </div>
       </div>
     </section>
@@ -139,6 +143,8 @@
         <span class="tech-tag secondary">Node.js</span>
         <span class="tech-tag secondary">Python</span>
         <span class="tech-tag secondary">LangChain</span>
+        <span class="tech-tag secondary">Electron</span>
+        <span class="tech-tag">FastAPI</span>
         <span class="tech-tag">Flutter</span>
         <span class="tech-tag">Cocos2d</span>
       </div>
@@ -170,17 +176,33 @@
 
       <div class="project">
         <div class="project-header">
-          <h3 class="project-name">Smart Trader - AI 股票分析系统</h3>
+          <h3 class="project-name">Smart Trader - AI 股票分析 SaaS</h3>
           <span class="project-role">Owner</span>
         </div>
-        <p class="project-desc">基于 Longbridge OpenAPI + LLM 的智能股票分析系统，五维量化评级 + 自动报告生成</p>
-        <div class="project-tech">Python + LangChain + Ollama / 火山方舟 / OneAPI</div>
+        <p class="project-desc">基于 Longbridge OpenAPI + 多 LLM 的智能股票分析 SaaS，五维量化评级 + 信号流水线 + 多渠道分发</p>
+        <div class="project-tech">Python + LangChain + React 19 + Vite 7 + PostgreSQL + Stripe + Telegram Bot</div>
         <ul class="project-points">
-          <li><strong>Agent 架构</strong>：FetchAgent（数据获取）+ AnalyseAgent（AI 分析）+ Controller（流程编排）</li>
-          <li><strong>五维评级体系</strong>：基本面 40% + 技术面 30% + 成长性 15% + 情绪 10% + 行业风险 5%</li>
-          <li><strong>结构化输出</strong>：LLM 严格 JSON Schema，自动解析、校验、补齐、评级映射</li>
-          <li><strong>增量报告</strong>：每股独立 MD + 实时 summary 更新 + 自动索引，支持断点续跑</li>
-          <li><strong>鲁棒性设计</strong>：心跳检测 + 超时控制 + 自动重试，避免长时间无响应</li>
+          <li><strong>Agent 架构</strong>：FetchAgent + AnalyseAgent + Controller 三层编排，3500+ 行核心控制器</li>
+          <li><strong>Intel Rover</strong>：5+ 源情报聚合（OpenNews/NewsNow/OpenTwitter），事件评分触发，自适应冷却 + 人工反馈</li>
+          <li><strong>Signal Pipeline</strong>：结构化信号（BUY/SELL/HOLD/REDUCE），置信度 + 动态止损止盈 + 五维溯源</li>
+          <li><strong>SaaS 平台</strong>：多租户 + Stripe 订阅计费 + RBAC 权限 + 邀请制注册</li>
+          <li><strong>多渠道分发</strong>：Telegram + Webhook + App 三通道投递，完整审计链路</li>
+          <li><strong>Console</strong>：React 19 + Vite 7 + Tailwind CSS 4 运营看板，App/Ops/Lab 三视图</li>
+        </ul>
+      </div>
+
+      <div class="project">
+        <div class="project-header">
+          <h3 class="project-name">DeskClaw - 插件化 AI 桌面助手</h3>
+          <span class="project-role">Owner</span>
+        </div>
+        <p class="project-desc">基于 Electron + nanobot AI 内核的插件化桌面助手，支持 Chat、定时任务、技能管理，跨平台发布</p>
+        <div class="project-tech">Electron 35 + React 19 + TypeScript + Python FastAPI + WebSocket + nanobot</div>
+        <ul class="project-points">
+          <li><strong>插件架构</strong>：Manifest 驱动，动态发现/加载/激活，支持窗口、命令、设置、菜单、主题扩展点</li>
+          <li><strong>双层安全</strong>：Shell 端 PluginSandbox（权限 + Store 隔离）+ Gateway 端 ToolSecurityLayer（策略 + 审计 + DLP）</li>
+          <li><strong>Gateway 桥接</strong>：FastAPI + WebSocket 双通道，连接 nanobot 内核，流式对话 + Cursor 风格工具审批</li>
+          <li><strong>Monorepo</strong>：pnpm workspace 10+ 包，跨平台打包（macOS/Win/Linux）+ OTA 渲染器热更新</li>
         </ul>
       </div>
 
