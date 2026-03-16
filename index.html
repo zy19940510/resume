@@ -84,9 +84,17 @@
         <div class="timeline-item">
           <div class="timeline-dot"></div>
           <div class="timeline-content">
+            <div class="company">没有桌子人工智能</div>
+            <div class="position">AI 全栈开发</div>
+            <div class="period">2026/3 - 至今</div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
             <div class="company">长桥证券</div>
             <div class="position">Web Team</div>
-            <div class="period">2025/11 - 至今</div>
+            <div class="period">2025/11 - 2026/2</div>
           </div>
         </div>
         <div class="timeline-item">
@@ -155,6 +163,21 @@
 
       <div class="project">
         <div class="project-header">
+          <h3 class="project-name">DeskClaw - 插件化 AI 桌面助手</h3>
+          <span class="project-role">Owner</span>
+        </div>
+        <p class="project-desc">基于 Electron + nanobot AI 内核的插件化桌面助手，支持 Chat、定时任务、技能管理，跨平台发布</p>
+        <div class="project-tech">Electron 35 + React 19 + TypeScript + Python FastAPI + WebSocket + nanobot</div>
+        <ul class="project-points">
+          <li><strong>插件架构</strong>：Manifest 驱动，动态发现/加载/激活，支持窗口、命令、设置、菜单、主题扩展点</li>
+          <li><strong>双层安全</strong>：Shell 端 PluginSandbox（权限 + Store 隔离）+ Gateway 端 ToolSecurityLayer（策略 + 审计 + DLP）</li>
+          <li><strong>Gateway 桥接</strong>：FastAPI + WebSocket 双通道，连接 nanobot 内核，流式对话 + Cursor 风格工具审批</li>
+          <li><strong>Monorepo</strong>：pnpm workspace 10+ 包，跨平台打包（macOS/Win/Linux）+ OTA 渲染器热更新</li>
+        </ul>
+      </div>
+
+      <div class="project">
+        <div class="project-header">
           <h3 class="project-name">A2UI - 生成式 UI 架构</h3>
           <span class="project-role">Owner</span>
         </div>
@@ -184,21 +207,6 @@
           <li><strong>SaaS 平台</strong>：多租户 + Stripe 订阅计费 + RBAC 权限 + 邀请制注册</li>
           <li><strong>多渠道分发</strong>：Telegram + Webhook + App 三通道投递，完整审计链路</li>
           <li><strong>Console</strong>：React 19 + Vite 7 + Tailwind CSS 4 运营看板，App/Ops/Lab 三视图</li>
-        </ul>
-      </div>
-
-      <div class="project">
-        <div class="project-header">
-          <h3 class="project-name">DeskClaw - 插件化 AI 桌面助手</h3>
-          <span class="project-role">Owner</span>
-        </div>
-        <p class="project-desc">基于 Electron + nanobot AI 内核的插件化桌面助手，支持 Chat、定时任务、技能管理，跨平台发布</p>
-        <div class="project-tech">Electron 35 + React 19 + TypeScript + Python FastAPI + WebSocket + nanobot</div>
-        <ul class="project-points">
-          <li><strong>插件架构</strong>：Manifest 驱动，动态发现/加载/激活，支持窗口、命令、设置、菜单、主题扩展点</li>
-          <li><strong>双层安全</strong>：Shell 端 PluginSandbox（权限 + Store 隔离）+ Gateway 端 ToolSecurityLayer（策略 + 审计 + DLP）</li>
-          <li><strong>Gateway 桥接</strong>：FastAPI + WebSocket 双通道，连接 nanobot 内核，流式对话 + Cursor 风格工具审批</li>
-          <li><strong>Monorepo</strong>：pnpm workspace 10+ 包，跨平台打包（macOS/Win/Linux）+ OTA 渲染器热更新</li>
         </ul>
       </div>
 
