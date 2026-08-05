@@ -6,9 +6,11 @@
 
 ## 特性
 
-- 🎨 现代深色主题设计
+- 🍎 苹果风格的克制浅色设计
+- 🧭 围绕 AI 原生研发、复杂系统、端云协同与商业交付重组内容
 - 📱 完全响应式布局
-- 🖨️ 打印优化（自动切换浅色主题）
+- ♿ 语义化结构、键盘焦点与减少动效支持
+- 🖨️ 打印优化
 - ⚡ 纯静态，无依赖，加载极快
 - 🔄 GitHub Actions 自动部署
 
@@ -64,24 +66,20 @@ git push -u origin main
 
 ```css
 :root {
-  /* 主色调 */
-  --accent-primary: #60a5fa;
-  --accent-secondary: #a78bfa;
-  
-  /* 背景色 */
-  --bg-primary: #0a0f1a;
-  --bg-card: #1a2234;
+  --paper: #f5f5f7;
+  --ink: #1d1d1f;
+  --blue: #0071e3;
+  --dark: #101012;
 }
 ```
 
 ## 技术栈
 
 - HTML5 + CSS3
-- Google Fonts (Noto Sans SC + JetBrains Mono)
+- 系统字体栈（SF Pro / 苹方优先）
 - Intersection Observer API (滚动动画)
 - GitHub Actions (CI/CD)
 
 ## License
 
 MIT
-
