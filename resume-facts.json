@@ -12,7 +12,8 @@
       "role": "独立完成（基于开源网关二次开发、部署及运营）",
       "status": "线上正常运行",
       "daily_tokens": "50亿",
-      "users": "20+"
+      "users": "每日20+用户有调用量",
+      "statistics": "按天统计，每日重置"
     },
     "DeskClaw": {
       "role": "主导",
