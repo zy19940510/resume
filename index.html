@@ -47,6 +47,8 @@
       <div class="hero-actions reveal">
         <a class="button button-primary" href="mailto:363239878@qq.com">与我聊聊 <span aria-hidden="true">↗</span></a>
         <a class="button button-secondary" href="https://github.com/zy19940510" target="_blank" rel="noreferrer">GitHub</a>
+        <a class="text-link" href="resume-print.html">查看两页投递版简历 ↗</a>
+        <a class="text-link" href="resume.pdf" download>下载 PDF ↓</a>
         <a class="text-link" href="tel:13261014429">132 6101 4429</a>
       </div>
       <div class="proof-strip reveal" aria-label="职业亮点">
@@ -120,7 +122,7 @@
           <aside class="quote">
             <p>“我的核心能力不是调用模型，而是把一个想法从技术验证做到产品上线，再跑通真实用户和商业闭环。”</p>
           </aside>
-          <p class="fine-print">在多模型、多 Agent 并行研发场景下，日 Token 调用量常态超过 1 亿，复杂项目阶段可达 3–6 亿。长期高强度使用 Claude Opus、GPT 高推理与高速档位进行研发、架构设计、代码生成、评审和深度研究。</p>
+          <p class="fine-print">在多模型、多 Agent 并行研发中，关注需求拆解、上下文构建、执行验证和错误归因，持续将有效经验沉淀为可复用的工程规则。</p>
         </div>
       </div>
     </section>
@@ -137,9 +139,9 @@
           <article class="project-feature reveal">
             <div class="project-index">01</div>
             <div class="project-copy">
-              <p class="project-tag">AI INFRA</p>
-              <h3>AI 智能网关与模型基础设施</h3>
-              <p>基于 OpenAI、Anthropic、Google、阿里云及其他主流厂商 API，搭建统一 AI 智能网关，覆盖市面上绝大多数热门模型。</p>
+              <p class="project-tag">独立完成 · 线上运行</p>
+              <h3>NiceAPI 多模型网关与模型基础设施</h3>
+              <p>基于开源网关，独立完成二次开发、部署与运营，统一接入 OpenAI、Anthropic、Google 等模型 API，覆盖模型兼容、订阅商品、用量计费、提示词审计与管理控制台。当前线上正常运行，服务 <strong>20+ 用户，日均处理 50 亿 Token</strong>。</p>
               <ul class="inline-list" aria-label="核心能力">
                 <li>统一接入</li><li>动态路由</li><li>故障切换</li><li>限流鉴权</li><li>Token 统计</li><li>成本与审计</li><li>可观测性</li>
               </ul>
@@ -150,19 +152,39 @@
           <article class="project-feature reveal">
             <div class="project-index">02</div>
             <div class="project-copy">
-              <p class="project-tag">DESKTOP AGENT</p>
+              <p class="project-tag">主导 · 已停止维护</p>
               <h3>DeskClaw C 端 AI 桌面 Agent</h3>
-              <p>从 0 到 1 参与 DeskClaw 产品设计与研发，将其打造为面向普通用户的插件化桌面 AI Agent。</p>
+              <p>从 0 到 1 主导 DeskClaw 产品设计与研发，将其打造为面向普通用户的插件化桌面 AI Agent。</p>
               <p>覆盖底层 Agent Gateway、插件系统、工具调用、安全审批、跨平台桌面端，到产品公测、用户交付和商业化验证的完整闭环；支持 Chat、定时任务、技能管理、工作流自动化，并覆盖 macOS、Windows 和 Linux。</p>
             </div>
           </article>
 
           <article class="project-feature reveal">
             <div class="project-index">03</div>
+            <div class="project-copy"><p class="project-tag">独立完成 · Demo 完成 / 未上线</p><h3>Workflow OS：可恢复的 AI 工作流</h3><p>独立完成系统设计与研发，从 WorkflowIR 编译不可变 ExecutionPlan，交由 Go + Temporal 执行；React Studio 统一画布、版本发布、节点调试、人工审批和运行追踪。</p><p class="project-goal">完成旧系统 15 节点审核流程的映射迁移、本地端到端运行与受控 staging shadow；Demo 已完成，尚未上线。</p></div>
+          </article>
+
+          <article class="project-feature reveal">
+            <div class="project-index">04</div>
+            <div class="project-copy"><p class="project-tag">主导 · 项目暂停</p><h3>AI InkLoop：白板、墨水屏与文档墨水</h3><p>主导项目设计与研发，以 TypeScript、DOM / SVG、Native Bridge 和 InkGraph 共享协议建设文档渲染、笔迹与 AI 批注、离线存储与同步，复用到 Web、Obsidian 和桌面宿主。</p><p class="project-goal">完成手机 Camera / Mic 到 Mac Host 的采集、校准、转录与只读矢量白板演示；墨水屏与白板感知模型按研发探索阶段表述。</p></div>
+          </article>
+
+          <article class="project-feature reveal">
+            <div class="project-index">05</div>
+            <div class="project-copy"><p class="project-tag">参与 · 已封版 / 停止迭代</p><h3>Browser Pilot：面向 Agent 的浏览器基础设施</h3><p>参与 Browser Pilot 研发。项目基于 Python / FastAPI、Vue3 / TypeScript、Docker、PostgreSQL 与 S3，将独立浏览器会话通过 REST API、CLI 和 Web UI 提供给 Agent；支持 Chrome / Cloak runtime、noVNC 实时查看、网络出口及文件管理。</p><p class="project-goal">项目覆盖设备租约、命令审计与执行结果契约，区分动作执行、外部副作用和证据状态；通过独立 runtime-worker 隔离容器控制面。</p></div>
+          </article>
+
+          <article class="project-feature reveal">
+            <div class="project-index">06</div>
+            <div class="project-copy"><p class="project-tag">CROSS-PLATFORM DELIVERY</p><h3>AI Setup / Hermes Launchpad</h3><p>以 Go + Tauri 构建跨平台 CLI 与桌面交付工具，共用安装、模型配置、诊断和真实验收引擎；支持签名 Catalog、校验和验证与 OS KeyStore。</p><p class="project-goal">以步骤状态持久化、等待后续跑、配置快照和恢复支撑可诊断、可持续的 AI 环境交付。</p></div>
+          </article>
+
+          <article class="project-feature reveal">
+            <div class="project-index">07</div>
             <div class="project-copy">
               <p class="project-tag">MODEL ENGINEERING</p>
-              <h3>Qwen3.5 本地模型工程</h3>
-              <p>完成 Qwen3.5 系列模型的本地部署与领域微调，建设数据—训练—评测—部署—Agent—端侧蒸馏的完整私有化链路。</p>
+              <h3>Qwen 系列本地模型工程</h3>
+              <p>完成 Qwen 系列模型的本地部署与领域微调，建设数据—训练—评测—部署—Agent—端侧蒸馏的完整私有化链路。</p>
               <div class="detail-columns">
                 <ul>
                   <li>领域数据采集、清洗、标注与合成</li>
@@ -184,7 +206,7 @@
           </article>
 
           <article class="project-feature reveal">
-            <div class="project-index">04</div>
+            <div class="project-index">08</div>
             <div class="project-copy">
               <p class="project-tag">GENERATIVE UI</p>
               <h3>A2UI 生成式 UI 架构</h3>
@@ -206,7 +228,7 @@
           </article>
 
           <article class="project-feature reveal">
-            <div class="project-index">05</div>
+            <div class="project-index">09</div>
             <div class="project-copy">
               <p class="project-tag">AI SAAS</p>
               <h3>Smart Trader AI 股票分析 SaaS</h3>
@@ -228,7 +250,7 @@
           </article>
 
           <article class="project-feature reveal">
-            <div class="project-index">06</div>
+            <div class="project-index">10</div>
             <div class="project-copy">
               <p class="project-tag">EDGE AI</p>
               <h3>ESP32 / STM32 + NPU 端云协同 Agent</h3>
@@ -238,7 +260,7 @@
           </article>
 
           <article class="project-feature reveal">
-            <div class="project-index">07</div>
+            <div class="project-index">11</div>
             <div class="project-copy">
               <p class="project-tag">LOCAL WORKSPACE</p>
               <h3>macOS 本地自托管 Workflow 工作台</h3>
@@ -247,7 +269,7 @@
           </article>
 
           <article class="project-feature reveal">
-            <div class="project-index">08</div>
+            <div class="project-index">12</div>
             <div class="project-copy">
               <p class="project-tag">COMMERCIAL DELIVERY</p>
               <h3>Hermes Agent 商业化交付</h3>
@@ -257,7 +279,7 @@
           </article>
 
           <article class="project-feature reveal">
-            <div class="project-index">09</div>
+            <div class="project-index">13</div>
             <div class="project-copy">
               <p class="project-tag">ENGINEERING SYSTEM</p>
               <h3>Loop Engineering 工程实践</h3>
@@ -270,7 +292,7 @@
           </article>
 
           <article class="project-feature reveal">
-            <div class="project-index">10</div>
+            <div class="project-index">14</div>
             <div class="project-copy">
               <p class="project-tag">VISION × RL</p>
               <h3>2D 游戏 AI Bot</h3>
@@ -279,7 +301,7 @@
           </article>
 
           <article class="project-feature reveal">
-            <div class="project-index">11</div>
+            <div class="project-index">15</div>
             <div class="project-copy">
               <p class="project-tag">AI × MAKING</p>
               <h3>AI CAD 建模与 3D 打印闭环</h3>
@@ -288,7 +310,7 @@
           </article>
 
           <article class="project-feature reveal">
-            <div class="project-index">12</div>
+            <div class="project-index">16</div>
             <div class="project-copy">
               <p class="project-tag">KNOWLEDGE × CONTENT</p>
               <h3>AI 知识库与 AI 自媒体闭环</h3>
@@ -315,10 +337,11 @@
             </div>
             <div class="legacy-summary">
               <h3>F1API 前后端联调平台</h3>
-              <p>全链路 API 协作平台，采用 Monorepo 多模块架构，接入 <strong>50+ 研发团队</strong>。</p>
+              <p>全链路 API 协作平台，采用 Monorepo 多模块架构，服务 <strong>50+ 深度使用团队</strong>（每团队接入项目大于 3 个、总接口大于 30 个）。</p>
               <div class="legacy-stack">React · Egg.js · MySQL · MCP</div>
             </div>
             <ul class="legacy-details">
+              <li>单接口联调排期由平均约 <strong>3 小时缩短至半小时以内</strong></li>
               <li>接入 AIGC 平台，生成 Mock 数据、TypeScript 类型、请求代码和字段描述</li>
               <li>发布 @yyfe/f1_mcp，支持 Cursor 直接调用 API 数据完成开发工作流</li>
               <li>建设浏览器 Mock 插件与系统 / 团队 / 项目三级 RBAC 权限体系</li>
@@ -332,7 +355,7 @@
             </div>
             <div class="legacy-summary">
               <h3>神农微前端运营平台</h3>
-              <p>美团医药运营系统，集成 <strong>500+ 页面</strong>，<span class="nowrap">服务 <strong>100+ 运营人员</strong>。</span></p>
+              <p>美团医药运营系统，集成 <strong>500+ 路由</strong>（按路由表总路由数统计），<span class="nowrap">服务 <strong>100+ 运营人员</strong>。</span></p>
               <div class="legacy-stack">React · Webpack · Qiankun · Socket.io</div>
             </div>
             <ul class="legacy-details">
@@ -438,11 +461,11 @@
 
         <div class="career" aria-label="工作经历">
           <article class="career-item reveal">
-            <time datetime="2026-03">2026.03 — 至今</time>
+            <time datetime="2026-03">2026.03 — 2026.09</time>
             <div><h3>没有桌子人工智能</h3><p>AI 全栈开发</p></div>
           </article>
           <article class="career-item reveal">
-            <time datetime="2025-11">2025.11 — 2026.02</time>
+            <time datetime="2025-11">2025.11 — 2026.03</time>
             <div><h3>长桥证券</h3><p>Web Team</p></div>
           </article>
           <article class="career-item reveal featured-career">
@@ -450,7 +473,7 @@
             <div><h3>美团</h3><p>医药技术部 · L7 · S 绩效 · 技术负责人 / 虚线团队管理</p></div>
           </article>
           <article class="career-item reveal featured-career">
-            <time datetime="2021-07">2021.07 — 2022.02</time>
+            <time datetime="2021-07">2021.07 — 2022.03</time>
             <div><h3>阿里巴巴</h3><p>本地生活 · P7</p></div>
           </article>
           <article class="career-item reveal featured-career">
@@ -458,7 +481,7 @@
             <div><h3>京东</h3><p>体验设计部 · T5 · A+ 绩效 · 项目 Owner / <span class="nowrap">虚线团队管理</span></p></div>
           </article>
           <article class="career-item reveal">
-            <time datetime="2017-12">2017.12 — 2019.05</time>
+            <time datetime="2017-12">2017.12 — 2019.06</time>
             <div><h3>宽拓科技</h3><p>前端开发</p></div>
           </article>
         </div>

@@ -83,3 +83,17 @@ git push -u origin main
 ## License
 
 MIT
+
+## 两页投递版（2026-11）
+
+打开 `resume-print.html`，使用浏览器打印，选择 A4、保存为 PDF、开启背景图形并关闭页眉页脚。页面自带两页分页样式。
+
+已按本人 2026-11-01 确认更新工作起止月份、项目职责、当前阶段与指标口径。
+
+- `index.html`：完整在线简历；`resume-print.html`：两页阅读 / 打印版；`resume.pdf`：对应 PDF 下载。
+- `resume-facts.json`：本次本人确认的事实记录，不含求职薪资偏好。
+- NiceAPI 独立二次开发、部署与运营，线上运行，日均处理 50 亿 Token、20+ 用户。
+- DeskClaw 主导、停止维护；Workflow OS 独立完成、Demo 完成未上线；AI InkLoop 主导、暂停；Browser Pilot 参与、封版停止迭代。
+- F1API 单接口联调排期平均约 3 小时 → 半小时以内；50+ 团队为深度使用团队；500+ 为路由表总路由数。
+
+推送 `main` 后由现有 GitHub Actions 发布到原 GitHub Pages 地址。
