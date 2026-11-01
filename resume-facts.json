@@ -36,5 +36,13 @@
     "F1API": "单接口联调排期由平均约3小时缩短至半小时以内",
     "50+团队": "深度使用团队：每团队接入项目>3个，总接口>30个",
     "500+路由": "路由表总路由数"
-  }
+  },
+  "ai_project_period": "2026.03-2026.09（本人确认的共同研发区间，未细分单项目月份）",
+  "ai_project_order": [
+    "DeskClaw",
+    "Browser Pilot",
+    "NiceAPI",
+    "AI InkLoop",
+    "Workflow OS"
+  ]
 }
